@@ -16,6 +16,14 @@
     - bien-être
     - site web
 
+- name: Elise Aucouturier - site e-commerce
+  url: https://eliseaucouturier.com
+  description: Développement d'un site e-commerce pour Elise Aucouturier
+  status: live
+  tags:
+    - e-commerce
+    - site web
+
 - name: FanHypnose - application web
   url: sur demande
   description: Développement d'une application web de gestion de patientèle et d'édition de documents pour FanHypnose
@@ -33,3 +41,21 @@
     - javascript
     - python
     - web app
+
+- name: Laure Bruas - site e-commerce
+  url: https://laurebruas.fr
+  description: Développement d'un site e-commerce pour Laure Bruas
+  status: live
+  tags:
+    - e-commerce
+    - wordpress/woocommerce
+    - site web
+
+- name: Refectory (Dejbox) - Blog & Zendesk
+  url: https://refectory.fr
+  description: Développement du blog sous WordPress et développement d'un thème custom pour leur Zendesk
+  status: live
+  tags:
+    - blog
+    - zendesk
+    - wordpress
