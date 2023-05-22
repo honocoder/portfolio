@@ -1,16 +1,17 @@
 ---
-import SectionHeading from './SectionHeading.astro'
-const { tools } = Astro.props
+import SectionHeading from './SectionHeading.astro';
+const { tools } = Astro.props;
 ---
-<SectionHeading>
-    Main tools
-</SectionHeading>
-<ul class="flex-col mt-2 print:inline-flex">
-    {tools.map(tool => (
-        <li class="inline-block md:block mb-1 mr-1 md:mr-0 print:mr-0" key={tool}>
-            <span class="inline-block subpixel-antialiased px-3 py-1 font-header font-light text-xl md:text-2xl text-gray-900 dark:text-gray-200">
-                {tool}
-            </span>
-        </li>
-    ))}
+
+<SectionHeading>Outils principaux</SectionHeading>
+<ul class='flex-col mt-2 print:inline-flex'>
+  {
+    tools.map((tool) => (
+      <li class='inline-block mb-1 mr-1 md:block md:mr-0 print:mr-0' key={tool}>
+        <span class='inline-block px-3 py-1 text-xl subpixel-antialiased font-light text-gray-900 font-header md:text-2xl dark:text-gray-200'>
+          {tool}
+        </span>
+      </li>
+    ))
+  }
 </ul>

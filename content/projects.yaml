@@ -1,21 +1,35 @@
-- name: Astro - Ink
-  url: https://github.com/one-aalam/astro-ink
-  description: Astro Ink is a minimal theme created to serve minimalistic markdown-based blog needs. It ships with almost all the basic Astro components that you might need while creating light-weight, performant, personal blogs, that focus on shipping less Javascript by default..
-  status: live
+- name: PLCLab
+  url: sur demande
+  description: Développement du front end d'une application d'édition de grafcets en React et TypeScript
+  status: /
   tags:
-    - blog
-    - minimal
-    - dark mode
-  icon: github
-  image: https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png
+    - web app
+    - react
+    - typescript
 
-- name: Astro - Ink
-  url: https://github.com/one-aalam/astro-ink
-  description: Astro Ink is a minimal theme created to serve minimalistic markdown-based blog needs. It ships with almost all the basic Astro components that you might need while creating light-weight, performant, personal blogs, that focus on shipping less Javascript by default..
+- name: FanHypnose - site web
+  url: https://fanhypnose.fr
+  description: Développement d'un site internet pour FanHypnose
   status: live
   tags:
-    - blog
-    - minimal
-    - dark mode
-  icon: github
-  image: https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png
+    - marketing
+    - bien-être
+    - site web
+
+- name: FanHypnose - application web
+  url: sur demande
+  description: Développement d'une application web de gestion de patientèle et d'édition de documents pour FanHypnose
+  status: en cours
+  tags:
+    - web app
+    - next.js
+    - tailwind
+
+- name: Mersen - application web
+  url: sur demande
+  description: Travail sur une application web embarquée
+  status: live
+  tags:
+    - javascript
+    - python
+    - web app

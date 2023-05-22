@@ -1,12 +1,13 @@
 ---
-import SectionHeading from './SectionHeading.astro'
-const { about } = Astro.props
+import SectionHeading from './SectionHeading.astro';
+const { about } = Astro.props;
 ---
-<div class="about">
-    <SectionHeading>
-        About
-    </SectionHeading>
-    <div class="font-text text-sm pb-12 leading-normal whitespace-pre-line text-gray-900 dark:text-gray-200">
-        {about}
-    </div>
+
+<div class='about'>
+  <SectionHeading>À propos</SectionHeading>
+  <div
+    class='pb-12 text-sm leading-normal text-gray-900 whitespace-pre-line font-text dark:text-gray-200'
+  >
+    {about}
+  </div>
 </div>

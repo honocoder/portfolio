@@ -1,18 +1,18 @@
 ---
     import { SITE } from '$/config'
     import SvgIcon from './SvgIcon.astro'
-    import ModeSwitcherBtn from './ModeSwitcherBtn.svelte'
+    // import ModeSwitcherBtn from './ModeSwitcherBtn.svelte'
 ---
 
 <header class="header">
     <div class="header__logo">
-        <span class="inline-flex w-14 h-14 rounded-full lg:mt-4 font-header font-bold text-xl justify-center items-center text-center text-primary dark:text-primaryLight border-2 border-solid border-primaryLight dark:border-primary">
-           AA
+        <span class="inline-flex items-center justify-center text-xl font-bold text-center border-2 border-solid rounded-full w-14 h-14 lg:mt-4 font-header text-primary dark:text-primaryLight border-primaryLight dark:border-primary">
+           JM
         </span>
     </div>
-    <div class="header__meta flex-1">
-        <div class="header__meta-more flex">
-            <nav class="header__nav flex mt-3 lg:mt-6">
+    <div class="flex-1 header__meta">
+        <div class="flex header__meta-more">
+            <nav class="flex mt-3 header__nav lg:mt-6">
                 <ul class="header__ref-list">
                     <li class="icon">
                         <a href={ SITE.githubUrl } title={`${ SITE.name }'s Github URL'`}>
@@ -23,7 +23,7 @@
                     </li>
                     <li class="print:hidden">
                             <a
-                            class="flex flex-row flex-grow lg:bg-primary lg:text-white px-2 py-1 rounded-md"
+                            class="flex flex-row flex-grow px-2 py-1 rounded-md lg:bg-primary lg:text-white"
                             href="#contact"
                             >
                                 <SvgIcon>
@@ -35,12 +35,12 @@
                                     />
                                 </SvgIcon>
                                 &nbsp;
-                                <span class="hidden lg:block">Contact Me</span>
+                                <span class="hidden lg:block">Contact</span>
                             </a>
                     </li>
-                    <li class="icon print:hidden">
+                    <!-- <li class="icon print:hidden">
                         <ModeSwitcherBtn client:visible />
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>

@@ -5,12 +5,12 @@ const { history } = Astro.props
 ---
 <SectionHeading>
     <span class="flex justify-center print:justify-start">
-        Work history
+        Historique
     </span>
 </SectionHeading>
-<div class="history flex flex-col relative pt-6 pb-6">
+<div class="relative flex flex-col pt-6 pb-6 history">
 {history.map(({ company, period, position, url }, i) => (
-    <div class="history-entry relative w-1/2 py-4 print:border-l-4 print:border-primaryLight print:mb-2">
+    <div class="relative w-1/2 py-4 history-entry print:border-l-4 print:border-primaryLight print:mb-2">
         <span class="dot-bg">
             <span class="dot"></span>
         </span>
@@ -20,7 +20,7 @@ const { history } = Astro.props
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="hover:opacity-75 transition-opacity duration-150 text-primaryDark dark:text-primaryLight"
+                class="transition-opacity duration-150 hover:opacity-75 text-primaryDark dark:text-primaryLight"
             >
                 {company}
             </a>
@@ -30,10 +30,10 @@ const { history } = Astro.props
         )}
 
         {position && (
-            <h5 class="text-sm font-normal mb-1 text-gray-800 dark:text-gray-300">{position}</h5>
+            <h5 class="mb-1 text-sm font-normal text-gray-800 dark:text-gray-300">{position}</h5>
         )}
         {period && (
-            <span class="text-sm font-medium opacity-50 text-gray-700 dark:text-gray-300">
+            <span class="text-sm font-medium text-gray-700 opacity-50 dark:text-gray-300">
                 {period}
             </span>
         )}
